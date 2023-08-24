@@ -1,0 +1,53 @@
+Manual de Configuração do Amazon EC2 Auto Scaling
+Objetivo
+Este manual tem como objetivo orientar a configuração adequada do Amazon EC2 Auto Scaling para otimização dos recursos de computação na infraestrutura da Abstergo Industries.
+
+Passos
+Acesse o Console de Gerenciamento da AWS.
+Navegue até o serviço Amazon EC2 Auto Scaling.
+Crie um grupo de Auto Scaling:
+Escolha a região desejada.
+Selecione uma Instância do EC2 como modelo.
+Defina a capacidade mínima e máxima desejada.
+Configure as políticas de dimensionamento, como escalonamento automático com base em métricas de uso de CPU.
+Crie um plano de lançamento:
+Defina a estratégia de lançamento, como lançamento gradual.
+Configure as preferências de distribuição das instâncias.
+Defina as métricas e alarmes:
+Configure métricas como uso de CPU, para que o Auto Scaling possa ajustar a capacidade conforme a carga.
+Configure alarmes que acionem ações do Auto Scaling, como adição/remoção de instâncias.
+Verifique as configurações e crie o grupo de Auto Scaling.
+Manual de Configuração do Amazon S3 (Simple Storage Service)
+Objetivo
+Este manual tem como objetivo guiar a configuração adequada do Amazon S3 para otimização do armazenamento de dados na Abstergo Industries.
+
+Passos
+Acesse o Console de Gerenciamento da AWS.
+Navegue até o serviço Amazon S3.
+Crie um novo bucket:
+Escolha um nome único e significativo para o bucket.
+Escolha a região desejada.
+Configure as permissões de acesso.
+Configure o ciclo de vida dos objetos:
+Defina regras para mover objetos para classes de armazenamento mais econômicas após certo período de tempo.
+Configure regras para expiração automática de objetos após um determinado período.
+Configure a criptografia:
+Ative a criptografia para garantir a segurança dos dados armazenados.
+Teste o acesso e a movimentação dos objetos no bucket.
+Manual de Configuração do AWS Lambda
+Objetivo
+Este manual tem como objetivo auxiliar na configuração adequada do AWS Lambda para automatização da alocação de recursos e redução de gastos operacionais na Abstergo Industries.
+
+Passos
+Acesse o Console de Gerenciamento da AWS.
+Navegue até o serviço AWS Lambda.
+Crie uma nova função do Lambda:
+Escolha um nome e uma linguagem de programação.
+Configure o gatilho, como acionamento por eventos ou invocação manual.
+Configure o código da função:
+Insira o código que será executado em resposta ao evento.
+Defina as variáveis de ambiente e configurações necessárias.
+Configure a alocação de recursos:
+Defina o tamanho e quantidade de recursos (CPU, memória) alocados para a função.
+Configure timeouts para a execução.
+Teste a função do Lambda com diferentes cenários para garantir o comportamento esperado.
