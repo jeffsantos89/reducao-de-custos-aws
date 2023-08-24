@@ -1,0 +1,80 @@
+# Documentação de Planejamento do Projeto
+
+## Detalhes do Projeto
+
+- Título do Projeto: Implementação de Serviços AWS para Redução de Custos na Abstergo Industries
+- Data de Início: 01/09/2023
+- Data de Término Prevista: 30/11/2023
+- Responsável pelo Projeto: Jeferson da Silva dos Santos
+
+## Visão Geral do Projeto
+
+Este projeto visa implementar serviços da AWS para redução de custos na Abstergo Industries, otimizando os recursos de computação, armazenamento de dados e gestão de cargas de trabalho. O objetivo é atingir uma maior eficiência operacional e diminuir os gastos da empresa.
+
+### Objetivos do Projeto
+
+- Implementar ferramentas AWS para otimização de recursos de computação.
+- Migrar parte dos dados da empresa para o Amazon S3 visando redução dos custos de armazenamento.
+- Utilizar o AWS Lambda para automatizar a alocação de recursos e diminuir gastos operacionais.
+
+## Escopo do Projeto
+
+O projeto incluirá as seguintes etapas e atividades:
+
+**Etapa 1: Otimização de Recursos de Computação**
+- Implementação do Amazon EC2 Auto Scaling para ajuste automático de instâncias EC2 conforme a demanda.
+- Configuração de métricas de desempenho para acionar o dimensionamento automático.
+- Definição de políticas de escalabilidade para garantir melhor utilização dos recursos.
+
+**Etapa 2: Otimização de Armazenamento de Dados**
+- Migração de dados não críticos para o Amazon S3.
+- Implementação de estratégias de gerenciamento de ciclo de vida de dados para reduzir custos de armazenamento.
+- Garantir que os dados migrados estejam acessíveis quando necessário.
+
+**Etapa 3: Gestão de Cargas de Trabalho**
+- Utilização do AWS Lambda para automatizar a alocação de recursos conforme as demandas de carga de trabalho.
+- Configuração de políticas de desligamento automático para instâncias ociosas.
+- Acompanhamento contínuo do desempenho e ajuste das políticas conforme necessário.
+
+## Requisitos
+
+- Acesso à conta da AWS com as permissões necessárias.
+- Equipe de implementação e suporte técnico treinada.
+
+## Cronograma
+
+- Etapa 1: 01/09/2023 a 15/09/2023
+- Etapa 2: 16/09/2023 a 30/09/2023
+- Etapa 3: 01/10/2023 a 15/10/2023
+
+## Recursos Necessários
+
+- Equipe de implementação: 2 administradores de sistemas, 1 desenvolvedor.
+- Acesso à plataforma AWS.
+- Instâncias EC2 para testes e implementação.
+
+## Orçamento
+
+- Custos com mão de obra da equipe de implementação.
+- Possíveis custos com licenças e instâncias EC2 reservadas.
+
+## Riscos e Mitigação
+
+- Possíveis interrupções de serviço durante a implementação das mudanças.
+  Mitigação: Realização de testes completos antes da implementação em produção.
+
+- Dados sensíveis podem ser inadvertidamente expostos durante a migração.
+  Mitigação: Implementação de medidas de segurança adequadas, como criptografia de dados.
+
+## Comunicação e Monitoramento
+
+- Reuniões semanais de status com a equipe de implementação.
+- Relatórios de progresso compartilhados com a alta administração a cada etapa concluída.
+
+## Aprovação
+
+Este documento foi revisado e aprovado por:
+
+[Assinatura do Responsável pelo Projeto]
+Jeferson da Silva dos Santos
+Data: [Data da Aprovação]
