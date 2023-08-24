@@ -1,0 +1,21 @@
+Planilha de Monitoramento de Custos e Desempenho - Etapa 1: Otimização de Recursos de Computação
+
+Data	Atividade	Custos Incorridos	Desempenho (Métricas de Escala)
+01/09/2023	Configuração do Auto Scaling	$0	-
+05/09/2023	Teste de dimensionamento	$50	Métrica X: [valor]
+10/09/2023	Ajustes de políticas	$0	Métrica Y: [valor]
+15/09/2023	Implementação completa	$100	Métrica Z: [valor]
+Planilha de Monitoramento de Custos e Desempenho - Etapa 2: Otimização de Armazenamento de Dados
+
+Data	Atividade	Custos Incorridos	Desempenho (Acessibilidade)
+16/09/2023	Migração de dados para o S3	$50	Dados migrados com sucesso
+20/09/2023	Implementação de ciclo de vida	$0	Dados movidos para o armazenamento econômico
+25/09/2023	Verificação da acessibilidade	$0	Dados acessíveis
+30/09/2023	Etapa concluída	$0	-
+Planilha de Monitoramento de Custos e Desempenho - Etapa 3: Gestão de Cargas de Trabalho
+
+Data	Atividade	Custos Incorridos	Desempenho (Alocação de Recursos)
+01/10/2023	Configuração do AWS Lambda	$0	-
+05/10/2023	Testes de alocação automática	$20	Recursos alocados conforme a demanda
+10/10/2023	Ajustes de políticas	$0	Melhoria no uso de recursos
+15/10/2023	Etapa concluída	$0	-
