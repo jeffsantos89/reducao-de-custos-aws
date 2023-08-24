@@ -1,0 +1,56 @@
+Relatório de Testes de Performance
+Ferramenta: Amazon EC2 Auto Scaling
+Etapa: Otimização de Recursos de Computação
+Teste de Dimensionamento Automático
+Data: 05/09/2023
+Objetivo: Verificar a capacidade do EC2 Auto Scaling de ajustar o número de instâncias conforme a carga.
+
+Configurações do Teste:
+
+Carga de trabalho simulada: 500 requisições por segundo.
+Duração: 2 horas.
+Métrica de Escala: Utilização de CPU > 70%.
+Resultados:
+
+Início de escalonamento: 09:00 AM
+Instâncias iniciadas: 3
+Pico de carga atingido: 10:30 AM
+Instâncias em execução durante o pico: 6
+Encerramento de escalonamento: 11:45 AM
+Instâncias encerradas: 2
+Conclusão:
+O Amazon EC2 Auto Scaling respondeu efetivamente à carga de trabalho, escalando as instâncias conforme a demanda. A capacidade aumentou durante o pico de tráfego e foi reduzida após a diminuição da carga, demonstrando o ajuste automático esperado.
+
+Logs de Implementação e Configuração
+Ferramenta: Amazon S3
+Etapa: Otimização de Armazenamento de Dados
+Configuração do Bucket no Amazon S3
+Data: 16/09/2023
+
+Passos de Configuração:
+
+Criado o bucket com o nome "abstergo-industries-data".
+Escolhida a região "us-east-1" para o bucket.
+Definidas permissões de acesso: Acesso público bloqueado, permissões de leitura/gravação para a equipe de administração.
+Configuração de Ciclo de Vida:
+
+Regra criada para mover objetos não acessados por mais de 30 dias para a classe de armazenamento GLACIER.
+Regra criada para expirar objetos após 365 dias.
+Configuração de Criptografia:
+
+Ativada a criptografia de servidor para os objetos no bucket.
+Utilizado o padrão de criptografia AES-256.
+Acesso e Verificação de Dados
+Data: 25/09/2023
+
+Atividades Realizadas:
+
+Upload de arquivos de teste para o bucket.
+Verificação de acessibilidade e download de objetos.
+Verificação do movimento de objetos para a classe de armazenamento GLACIER após 30 dias de inatividade.
+Resultados:
+
+Arquivos de teste foram enviados e acessíveis.
+Após 30 dias de inatividade, objetos foram automaticamente movidos para a classe de armazenamento GLACIER.
+Conclusão:
+A configuração do Amazon S3 foi concluída com sucesso, com políticas de ciclo de vida e criptografia implementadas conforme planejado. Os testes confirmaram a acessibilidade dos dados e o funcionamento adequado das regras de movimentação de objetos.
